@@ -6,7 +6,7 @@ import serial
 import time
 import logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(levelname)s : %(module)s : %(funcName)s : %(message)s')
+logging.basicConfig(level=logging.INFO, format='%(levelname)s : %(module)s : %(funcName)s : %(message)s')
 
 S_CHAR = b'S'
 P_CHAR = b'P'
